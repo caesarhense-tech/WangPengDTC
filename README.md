@@ -17,7 +17,15 @@ DTC 独立站从 0 到 1 经营方法论与操盘 playbook。
 | `references/supply-chain-and-fulfillment.md` | 选品否决项、尾程结构、退货、现金周期、规模不经济 |
 | `references/retrospective-and-fundraising.md` | 0→1 五条件、信号复盘法、融资叙事三要素 |
 | `references/case-study-gift-store.md` | 匿名案例：两年期礼物站完整复盘 |
-| `templates/` | 四张可直接填的表：SKU 利润表、搜索词台账、周看板、VOC 证据表 |
+| `references/category-adapters/gifts-home.md` | **基准品类适配器**：礼物/家居参数、阈值与四个坑 |
+| `references/category-adapters/hardware.md` | **硬件品类适配器**：机器人/3D打印机——认证、参数页、社区、众筹、耗材 LTV、售后 |
+| `templates/sku-profit-table.md` | SKU 利润表（含硬件双线核算列） |
+| `templates/search-term-log.md` | 搜索词台账（含硬件问题词标记） |
+| `templates/weekly-dashboard.md` | 周经营看板 |
+| `templates/voc-evidence-table.md` | VOC 证据表 |
+| `templates/hardware-certification-checklist.md` | 硬件认证核查表（上线前一票否决） |
+
+**版本说明**：v1.0 为礼物/家居单品类基准；v1.1 起引入"纪律层 + 品类适配层"架构——SKILL.md 永远只放品类无关内容，新品类通过 `category-adapters/` 扩展，换品类前先过"适配七问"。
 
 ## 在 WorkBuddy 中使用
 

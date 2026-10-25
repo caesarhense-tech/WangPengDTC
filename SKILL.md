@@ -9,7 +9,7 @@ description: DTC 独立站从 0 到 1 经营方法论与操盘 playbook。当用
 
 一套从真实项目（欧美市场、1–3 人团队、$100–$300 客单价位）中提炼的独立站经营纪律。核心信念：**网站上线不是从 0 到 1，订单能够重复才是。** 这套 playbook 解决的不是"怎么把站搭起来"，而是"怎么让每一单都算得清、每一条获客路径都可重复、每一次放大都不把现金流压垮"。
 
-适用边界：Shopify 类自建站、欧美市场、中小客单价（$50–$300）、1–3 人团队、$10k–$50k 启动资金。超大规模团队或平台型卖家（亚马逊为主）仅部分适用。
+适用边界：Shopify 类自建站、欧美市场、1–3 人团队、$10k–$50k 启动资金。已内置两个品类适配层：**礼物/家居（基准品类）**与**机器人/3D 打印机/智能硬件**；其他品类用 `references/category-adapters/gifts-home.md` 末尾的"换品类七问"适配。
 
 ## 核心纪律（先读这十条）
 
@@ -35,6 +35,9 @@ description: DTC 独立站从 0 到 1 经营方法论与操盘 playbook。当用
 | "站建好了，怎么来流量？" / 广告账户怎么搭 | 阶段 2 → `references/google-ads-playbook.md` |
 | "ROAS 上不去 / 花了钱不出单" | `references/google-ads-playbook.md` 的"数据症状倒推" |
 | "单量有，但不赚钱 / 尾程太贵 / 备货压钱" | 阶段 3 → `references/supply-chain-and-fulfillment.md` |
+| **机器人 / 3D 打印机 / 智能硬件品类** | `references/category-adapters/hardware.md`（先读）+ 通用参考 |
+| **礼物 / 创意家居品类** | `references/category-adapters/gifts-home.md`（基准品类参数） |
+| **新品类适配**（把 playbook 迁到新类目） | `references/category-adapters/gifts-home.md` 的"换品类七问" |
 | "项目做了一段时间，想复盘" / "要不要融资" | 阶段 4 → `references/retrospective-and-fundraising.md` |
 | 想要可直接填的表格 | `templates/` 目录 |
 
@@ -125,6 +128,10 @@ description: DTC 独立站从 0 到 1 经营方法论与操盘 playbook。当用
 - ❌ 把各平台归因订单相加当实际销售（同一笔订单被三个后台认领）
 - ❌ 3 人团队照做 10 人组织的运营清单
 - ❌ 融资时机卡在"没有规模故事、又没有利润厚度"的岔路中间
+- ❌ 硬件品类：认证未核验就投放 / 只讲参数上限不讲测试条件 / troubleshooting 藏售后
+- ❌ 硬件品类：社区里买水军、删差评、马甲发软文（一次违规毁掉品牌）
+- ❌ 硬件品类：众筹交付时间不留缓冲、按峰值需求备货、低估 BOM 和物流总成本
+- ❌ 硬件品类：在固件层面锁死第三方耗材（硬社区自杀行为）
 
 ## 资源索引
 
@@ -136,13 +143,18 @@ description: DTC 独立站从 0 到 1 经营方法论与操盘 playbook。当用
 | `references/supply-chain-and-fulfillment.md` | 选品否决项、尾程结构、退货、现金周期、规模不经济 |
 | `references/retrospective-and-fundraising.md` | 0→1 五条件、信号复盘法、融资叙事三要素 |
 | `references/case-study-gift-store.md` | 匿名案例：一个两年期礼物站的完整复盘（做对了什么/死在哪） |
+| `references/category-adapters/gifts-home.md` | **基准品类适配器**：礼物/家居的参数、阈值与四个坑 |
+| `references/category-adapters/hardware.md` | **硬件品类适配器**：机器人/3D打印机——认证、参数页、社区、众筹、耗材LTV、售后 |
 | `templates/sku-profit-table.md` | SKU 利润表（每周更新的底表） |
 | `templates/search-term-log.md` | 搜索词台账（账户日常作业） |
 | `templates/weekly-dashboard.md` | 周经营看板（一张表回答"这周好了还是坏了"） |
 | `templates/voc-evidence-table.md` | VOC 证据表（用户原话 → 动作 → 验证指标） |
+| `templates/hardware-certification-checklist.md` | 硬件认证核查表（上线前一票否决） |
 
 ## 使用原则
 
 - 这套纪律按顺序执行：**先算账，再验证，再打渠道，再谈放大，最后复盘**。跳步的代价在后面成倍出现。
+- **先确认品类，再谈打法。** 硬件品类（机器人/3D打印机）先读 `references/category-adapters/hardware.md`；礼物/家居为基准品类；新品类用"换品类七问"适配。
 - 所有表格先用 `templates/` 里的原型，跑两周再改字段——不要一开始就设计完美系统。
 - 数字必须是自己的。文中所有示例数字均为教学口径，用后台真实数字替换后再做决策。
+- **防串台**：任何品类结论（阈值、渠道权重、复购预期）必须来自该品类的适配器或自己的数据，禁止把基准品类的结论套到其他品类上。

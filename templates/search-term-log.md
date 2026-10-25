@@ -12,8 +12,10 @@
 
 - **交易词**：购买意图明确（for him / price / buy / best）→ 产品页/集合页承接
 - **比较词**：best / vs / review → 测评、对比内容承接
-- **问题词**：how / what / why → 教程内容承接，不急着导购
+- **问题词**：how / what / why / fix / not working / error → 教程内容承接，不急着导购（**硬件品类这类词是搜索主体**）
 - **无关词**：free / diy / repair manual / jobs → 否定词清单
+
+> 硬件品类注意：troubleshooting 类词（not extruding / calibration failed / firmware）按"问题词"记录并标记 **T**，它们是内容与 GEO 资产的主要来源，不要因为"不直接转化"就否定掉——它们服务的是信任与再营销，不是当期 CPA。
 
 ## 动作选项
 
