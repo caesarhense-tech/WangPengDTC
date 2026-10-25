@@ -16,6 +16,10 @@ DTC 独立站从 0 到 1 经营方法论与操盘 playbook。
 | `references/google-ads-playbook.md` | 账户结构、三档爬坡、周节奏、数据症状倒推表 |
 | `references/supply-chain-and-fulfillment.md` | 选品否决项、尾程结构、退货、现金周期、规模不经济 |
 | `references/retrospective-and-fundraising.md` | 0→1 五条件、信号复盘法、融资叙事三要素 |
+| `references/brand-positioning.md` | 品牌定位一句话模板 + 五问 + 一致性检查 |
+| `references/edm-lifecycle.md` | EDM：三条自动化、弃购纪律、复购周期设计 |
+| `references/affiliate-marketing.md` | 联盟营销：漏斗八阶段、佣金政策、激活、违规监控 |
+| `references/pr-outreach.md` | PR 外联：编辑四分法、开发信结构、CRM、分层衡量 |
 | `references/case-study-gift-store.md` | 匿名案例：两年期礼物站完整复盘 |
 | `references/category-adapters/gifts-home.md` | **基准品类适配器**：礼物/家居参数、阈值与四个坑 |
 | `references/category-adapters/hardware.md` | **硬件品类适配器**：机器人/3D打印机——认证、参数页、社区、众筹、耗材 LTV、售后 |
@@ -25,7 +29,7 @@ DTC 独立站从 0 到 1 经营方法论与操盘 playbook。
 | `templates/voc-evidence-table.md` | VOC 证据表 |
 | `templates/hardware-certification-checklist.md` | 硬件认证核查表（上线前一票否决） |
 
-**版本说明**：v1.0 为礼物/家居单品类基准；v1.1 起引入"纪律层 + 品类适配层"架构——SKILL.md 永远只放品类无关内容，新品类通过 `category-adapters/` 扩展，换品类前先过"适配七问"。
+**版本说明**：v1.0 为礼物/家居单品类基准；v1.1 起引入"纪律层 + 品类适配层"架构——SKILL.md 永远只放品类无关内容，新品类通过 `category-adapters/` 扩展，换品类前先过"适配七问"。v1.2 补齐经营闭环的放大器模块：品牌定位、EDM、联盟营销、PR 外联。
 
 ## 在 WorkBuddy 中使用
 

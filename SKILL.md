@@ -38,6 +38,10 @@ description: DTC 独立站从 0 到 1 经营方法论与操盘 playbook。当用
 | **机器人 / 3D 打印机 / 智能硬件品类** | `references/category-adapters/hardware.md`（先读）+ 通用参考 |
 | **礼物 / 创意家居品类** | `references/category-adapters/gifts-home.md`（基准品类参数） |
 | **新品类适配**（把 playbook 迁到新类目） | `references/category-adapters/gifts-home.md` 的"换品类七问" |
+| "品牌怎么定位 / 一句话讲清楚自己" | `references/brand-positioning.md` |
+| "老客/复购/邮件营销怎么做" / EDM | `references/edm-lifecycle.md` |
+| "联盟/分销/达人带货渠道" / Affiliate | `references/affiliate-marketing.md` |
+| "找媒体/编辑测评/发开发信" / PR | `references/pr-outreach.md` |
 | "项目做了一段时间，想复盘" / "要不要融资" | 阶段 4 → `references/retrospective-and-fundraising.md` |
 | 想要可直接填的表格 | `templates/` 目录 |
 
@@ -142,6 +146,10 @@ description: DTC 独立站从 0 到 1 经营方法论与操盘 playbook。当用
 | `references/google-ads-playbook.md` | 账户结构、三档爬坡、周节奏、数据症状倒推表 |
 | `references/supply-chain-and-fulfillment.md` | 选品否决项、尾程结构、退货、现金周期、规模不经济 |
 | `references/retrospective-and-fundraising.md` | 0→1 五条件、信号复盘法、融资叙事三要素 |
+| `references/brand-positioning.md` | 品牌定位一句话模板 + 五问 + 一致性检查 |
+| `references/edm-lifecycle.md` | EDM 用户资产：三条自动化、弃购纪律、复购周期设计 |
+| `references/affiliate-marketing.md` | 联盟营销：漏斗八阶段、佣金政策、激活、违规监控 |
+| `references/pr-outreach.md` | PR 外联：编辑四分法、开发信结构、CRM、分层衡量 |
 | `references/case-study-gift-store.md` | 匿名案例：一个两年期礼物站的完整复盘（做对了什么/死在哪） |
 | `references/category-adapters/gifts-home.md` | **基准品类适配器**：礼物/家居的参数、阈值与四个坑 |
 | `references/category-adapters/hardware.md` | **硬件品类适配器**：机器人/3D打印机——认证、参数页、社区、众筹、耗材LTV、售后 |
